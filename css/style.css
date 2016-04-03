@@ -72,6 +72,16 @@ code {
 	text-align:left;
 }
 
+#container1 {
+   margin-left: auto;
+   margin-right: auto;
+   width: 850px;
+
+   /* NOTE: Only works for non-floated block elements */
+   display: block;
+   float: none;
+}
+
 #calendar {
 	width:100%;
 	border-collapse:collapse;
